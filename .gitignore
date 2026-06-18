@@ -1,0 +1,11 @@
+# Arquivos de trabalho / origem — não publicar no GitHub Pages
+_work/
+_local/
+
+# PDFs pesados (referência e plano de negócios) — acima do limite do GitHub
+*.pdf
+
+# Configs locais do editor / Claude Code
+.claude/
+.DS_Store
+Thumbs.db
