@@ -23,7 +23,7 @@ Se alguém perguntar "o que é a Casa Oli?", a resposta cabe nessa frase.
 | **História** | Nasceu do nome "Oli" (de Olívia, a futura filha) — símbolo de amor, delicadeza, esperança e família. A marca traduz esse sentimento em peças que viram lembrança. |
 | **Propósito** | Transformar presentes em memórias afetivas. Cada peça tem intenção genuína. |
 | **Missão** | Criar presentes afetivos, personalizados e artesanais com dedicação e cuidado em cada detalhe. |
-| **Visão** | Ser referência regional em presentes que unem exclusividade, carinho e experiência afetiva. |
+| **Visão** | Ser referência regional em presentes que unem exclusividade, carinho e cuidado em cada gesto. |
 | **Valores** | Afeto · Qualidade · Personalização · Exclusividade · Delicadeza · Cuidado · Atendimento humanizado |
 
 **Tagline oficial:** *Casa Oli — Carinho em cada detalhe.*
@@ -63,7 +63,7 @@ Como a Casa Oli fala — em posts, WhatsApp, embalagem e cartões:
 | **Paleta** | Tons afetivos e suaves: rosé/blush, nude, terracota suave, off-white, verde-sálvia. Acentos em dourado/kraft para o "premium artesanal". |
 | **Tipografia** | Uma serifada elegante (títulos) + uma sem-serifa limpa (texto). Opcional: detalhe manuscrito para a assinatura "Oli". |
 | **Fotografia** | Luz natural, fundo neutro, peça + embalagem juntas, props delicados (flores secas, fibra de madeira, fitas). Padrão visual coeso no feed. |
-| **Embalagem** | É parte do produto, não acessório. Caixa + fibra + fita + cartão escrito à mão = a "experiência de abrir". É o que gera foto e indicação. |
+| **Embalagem** | É parte do produto, não acessório. Caixa + fibra + fita + cartão escrito à mão = o cuidado que se sente ao abrir. É o que gera foto e indicação. |
 
 > 💡 A embalagem é seu maior diferencial barato. A referência (Pilgrim) vende muito por causa do **unboxing** bonito.
 
@@ -109,7 +109,7 @@ Lembrancinhas de chá de bebê, casamento, batizado, aniversário. Pedidos em qu
 1. **Produção artesanal e exclusiva** — cada peça única, acabamento primoroso.
 2. **Personalização sob medida** — nome, cor, mensagem, tema.
 3. **Atendimento humanizado** — relação próxima, do orçamento à entrega.
-4. **Experiência de unboxing** — embalagem premium que vira foto e indicação.
+4. **Cuidado no unboxing** — embalagem premium que vira foto e indicação.
 5. **História de marca genuína** — "Oli" dá alma e diferencia de concorrentes sem narrativa.
 
 ---
@@ -227,7 +227,7 @@ Os números financeiros do plano vinham marcados como "gerados por IA". Aqui vai
 
 1. Consolidar identidade e posicionamento (marca reconhecível na região).
 2. Crescimento gradual e sustentável das vendas (rampa, não pico).
-3. Fidelização e experiência do cliente (recompra e indicação).
+3. Fidelização e cuidado com o cliente (recompra e indicação).
 4. Ampliação gradual do catálogo (Fase 2 → 3).
 5. Atendimento humanizado como diferencial.
 6. Construir base de clientes recorrentes + carteira corporativa inicial.

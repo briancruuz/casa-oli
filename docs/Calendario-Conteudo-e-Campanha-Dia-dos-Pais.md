@@ -28,7 +28,7 @@ Todo post cai em um destes 5 pilares — assim você nunca fica sem ideia:
 | 💛 **Afeto/História** | A alma da marca, a "Oli", o porquê | Significado do nome, "por que presente artesanal emociona" |
 | 🎁 **Produto** | Mostrar as peças com beleza | Caneca nova, kit montado, detalhe do acabamento |
 | 🎬 **Bastidor/Processo** | Como é feito (gera conexão e confiança) | Sublimando uma caneca, montando a caixa, embalando |
-| 📦 **Unboxing/Cliente** | A experiência de receber | Vídeo abrindo o kit, depoimento, foto do cliente |
+| 📦 **Unboxing/Cliente** | O cuidado ao receber | Vídeo abrindo o kit, depoimento, foto do cliente |
 | 💡 **Dica/Inspiração** | Ajuda o público (presente, datas) | "3 ideias de presente afetivo", "como escolher" |
 
 ---

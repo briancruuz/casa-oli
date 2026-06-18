@@ -279,6 +279,20 @@
   footer{text-align:center;padding:46px 0;color:var(--ink-soft);font-size:.85rem;border-top:1px solid var(--line);background:var(--cream)}
   footer img{width:150px;margin-bottom:12px}
   .note{font-size:.82rem;color:var(--ink-soft);margin-top:14px;font-style:italic}
+
+  /* ===== EFEITOS ===== */
+  /* surgimento suave ao rolar (scroll reveal) */
+  .reveal{opacity:0;transform:translateY(22px);
+    transition:opacity .7s ease, transform .7s cubic-bezier(.22,1,.36,1)}
+  .reveal.visible{opacity:1;transform:none}
+  /* flutuação sutil da logo no hero */
+  @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+  @media(prefers-reduced-motion:no-preference){
+    .hero .logo-card img{animation:floaty 6s ease-in-out infinite}
+  }
+  @media(prefers-reduced-motion:reduce){
+    .reveal{opacity:1!important;transform:none!important;transition:none!important}
+  }
 </style>
 </head>
 <body>
@@ -322,6 +336,7 @@
     <div class="navlinks">
       <a href="#cara">A cara da empresa</a>
       <a href="#essencia">Essência</a>
+      <a href="#cuidado">Cuidado</a>
       <a href="#entrego">O que entrego</a>
       <a href="#kits">Kits</a>
       <a href="#pedido">Pedido</a>
@@ -415,7 +430,7 @@
     <div class="grid g3">
       <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-target"/></svg></div><h3>Propósito</h3><p>Transformar presentes em memórias afetivas. Cada peça tem intenção genuína.</p></div>
       <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-heart"/></svg></div><h3>Missão</h3><p>Criar presentes afetivos, personalizados e artesanais com dedicação e cuidado em cada detalhe.</p></div>
-      <div class="card"><div class="ic-badge sage"><svg class="icon"><use href="#ic-sprout"/></svg></div><h3>Visão</h3><p>Ser referência <strong>regional</strong> em presentes que unem exclusividade, carinho e experiência afetiva.</p></div>
+      <div class="card"><div class="ic-badge sage"><svg class="icon"><use href="#ic-sprout"/></svg></div><h3>Visão</h3><p>Ser referência <strong>regional</strong> em presentes que unem exclusividade, carinho e cuidado em cada gesto.</p></div>
     </div>
     <div style="margin-top:26px">
       <div class="eyebrow" style="margin-bottom:8px">Valores que guiam tudo</div>
@@ -442,6 +457,20 @@
   </div>
 </section>
 
+<!-- CUIDADO COM O CLIENTE -->
+<section id="cuidado" class="alt">
+  <div class="wrap">
+    <div class="eyebrow">Nosso jeito de cuidar</div>
+    <h2 class="title">Cuidado com você em cada etapa</h2>
+    <p class="lead">Mais do que entregar um objeto, a Casa Oli cuida de quem presenteia e de quem recebe. O cuidado é o fio que costura tudo — do primeiro <em>“oi”</em> ao momento de desembrulhar.</p>
+    <div class="grid g3">
+      <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-chat"/></svg></div><h3>Cuidado no atendimento</h3><p>Atendimento humano e próximo. A gente escuta a sua história e a ocasião <strong>antes</strong> de pensar no produto — e acompanha você até a entrega.</p></div>
+      <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-heart"/></svg></div><h3>Cuidado na produção</h3><p>Cada peça é feita à mão e conferida uma a uma. Nada sai sem o acabamento que nós mesmos teríamos orgulho de receber.</p></div>
+      <div class="card"><div class="ic-badge sage"><svg class="icon"><use href="#ic-gift"/></svg></div><h3>Cuidado na entrega</h3><p>Embalagem premium pensada para emocionar na hora de abrir — o cuidado que vira foto, lembrança e indicação.</p></div>
+    </div>
+  </div>
+</section>
+
 <!-- O QUE ENTREGO -->
 <section id="entrego">
   <div class="wrap">
@@ -460,7 +489,7 @@
       </div>
       <div class="prod">
         <div class="thumb t4"><svg class="icon"><use href="#ic-box"/></svg></div>
-        <div class="body"><div class="ph">Fase 2</div><h3>Caixas &amp; embalagens</h3><p>Caixas personalizadas e a experiência de unboxing que vira foto.</p><div class="price">sob medida</div></div>
+        <div class="body"><div class="ph">Fase 2</div><h3>Caixas &amp; embalagens</h3><p>Caixas personalizadas e o cuidado no unboxing que vira foto.</p><div class="price">sob medida</div></div>
       </div>
       <div class="prod">
         <div class="thumb t3"><svg class="icon"><use href="#ic-pen"/></svg></div>
@@ -512,7 +541,7 @@
       <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-brush"/></svg></div><h3>Artesanal &amp; exclusivo</h3><p>Cada peça é única, com acabamento primoroso.</p></div>
       <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-pen"/></svg></div><h3>Personalização sob medida</h3><p>Nome, cor, mensagem, tema — feito para quem vai receber.</p></div>
       <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-chat"/></svg></div><h3>Atendimento humanizado</h3><p>Relação próxima, do orçamento à entrega.</p></div>
-      <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-camera"/></svg></div><h3>Experiência de unboxing</h3><p>Embalagem premium que vira foto e indicação.</p></div>
+      <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-camera"/></svg></div><h3>Cuidado no unboxing</h3><p>Embalagem premium que vira foto e indicação.</p></div>
       <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-book"/></svg></div><h3>História genuína “Oli”</h3><p>Alma de marca que diferencia de concorrentes sem narrativa.</p></div>
     </div>
   </div>
@@ -624,7 +653,7 @@
       <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-heart"/></svg></div><h3>Afeto / História</h3><p>A alma da marca, a “Oli”, o porquê do presente artesanal.</p></div>
       <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-gift"/></svg></div><h3>Produto</h3><p>Mostrar as peças com beleza e detalhe do acabamento.</p></div>
       <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-film"/></svg></div><h3>Bastidor / Processo</h3><p>Como é feito — gera conexão e confiança.</p></div>
-      <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-camera"/></svg></div><h3>Unboxing / Cliente</h3><p>A experiência de receber e depoimentos reais.</p></div>
+      <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-camera"/></svg></div><h3>Unboxing / Cliente</h3><p>O cuidado ao receber e depoimentos reais.</p></div>
       <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-bulb"/></svg></div><h3>Dica / Inspiração</h3><p>Ajuda o público a escolher o presente certo.</p></div>
       <div class="card"><div class="ic-badge"><svg class="icon"><use href="#ic-phone"/></svg></div><h3>Canais</h3><p>Instagram (vitrine) → WhatsApp Business (onde fecha) + Pinterest e TikTok.</p></div>
     </div>
@@ -724,8 +753,32 @@
     <a href="https://instagram.com/casa.oli" target="_blank" rel="noopener"><svg class="icon"><use href="#ic-ig"/></svg> Instagram</a>
     <a href="mailto:contato@casaoli.com.br"><svg class="icon"><use href="#ic-mail"/></svg> E-mail</a>
   </div>
-  <p style="margin-top:10px">Documento vivo · v1.2 · 17/06/2026 — atualize a cada marco alcançado.</p>
+  <p style="margin-top:10px">Documento vivo · v1.3 · 18/06/2026 — atualize a cada marco alcançado.</p>
 </footer>
+
+<!-- Efeito: surgimento suave ao rolar -->
+<script>
+(function(){
+  var mq = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)');
+  if((mq && mq.matches) || !('IntersectionObserver' in window)) return;
+  var sel = '.card,.prod,.tier,.phase,.step,.quote,.sw,.type-card,.tl-item,.logo-box,.mood figure,.stat';
+  var els = Array.prototype.slice.call(document.querySelectorAll(sel));
+  if(!els.length) return;
+  els.forEach(function(el){ el.classList.add('reveal'); });
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); }
+    });
+  }, {threshold:0.12, rootMargin:'0px 0px -40px 0px'});
+  els.forEach(function(el){
+    var sibs = Array.prototype.filter.call(el.parentNode.children, function(c){
+      return c.classList && c.classList.contains('reveal');
+    });
+    el.style.transitionDelay = (Math.min(sibs.indexOf(el),6) * 70) + 'ms';
+    io.observe(el);
+  });
+})();
+</script>
 
 </body>
 </html>
